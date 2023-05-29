@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Wix+Madefor+Display&display=swap");
+
+html {
+  font-size: 62.5%;
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+.navbar-nav {
+  font-size: 2rem;
+  color: white;
+}
+div[id] {
+  scroll-margin-top: 50px;
+}
+.banner-area {
+  background-color: rgba(0, 0, 0); /* black with 50% opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  /* background: url(../Pictures/a.jpg); */
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-area h2 {
+  font-size: 5rem;
+  margin-left: 10px;
+  padding: 0;
+  color: #fff;
+}
+.banner-area h2 span {
+  color: rgb(255, 255, 255);
+}
+.About {
+  background-color: rgba(0, 0, 0); /* black with 50% opacity */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+p {
+  color: white;
+  text-align: justify;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.Skills {
+  background-color: rgba(0, 0, 0); /* black with 50% opacity */
+  color: white;
+  min-height: 100vh;
+  padding: 10px;
+}
+.Skills-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 10px;
+}
+.card {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: rgb(3, 3, 3);
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1); /* Cambia el tamaño del elemento al hacer hover */
+  /* filter: brightness(150%) contrast(150%); */
+}
+.img {
+  padding: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.Servicios {
+  background-color: rgba(0, 0, 0); /* black with 50% opacity */
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .banner-area h2 {
+    font-size: 3rem;
+    margin-left: 10px;
+    padding: 0;
+    color: #fff;
+  }
+}
