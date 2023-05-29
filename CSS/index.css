@@ -22,7 +22,7 @@ div[id] {
   scroll-margin-top: 50px;
 }
 .banner-area {
-  background-color: rgba(0, 0, 0); /* black with 50% opacity */
+  background-color: rgb(100, 47, 47); /* black with 50% opacity */
   display: flex;
   justify-content: center;
   align-items: center;
